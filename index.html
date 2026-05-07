@@ -1,0 +1,354 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>KD Handloom Store Motihari | Wholesale & Retail कपड़ा Store</title>
+    <meta
+      name="description"
+      content="KD Handloom Store Motihari — budget friendly wholesale + retail कपड़ा store in Motihari, Bihar. Saree, lungi, gamcha, kurti, innerwear, readymade clothes."
+    />
+    <meta name="robots" content="index,follow" />
+    <link rel="canonical" href="https://kdhandloom.in/" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="KD Handloom Store Motihari" />
+    <meta
+      property="og:description"
+      content="Best Wholesale & Retail Clothing Store in Motihari — Saree • Readymade • Gamcha • Daily Wear Collection"
+    />
+    <meta property="og:locale" content="en_IN" />
+
+    <meta name="theme-color" content="#ffffff" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "ClothingStore",
+        "name": "KD Handloom Store Motihari",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Motihari",
+          "addressRegion": "Bihar",
+          "addressCountry": "IN"
+        },
+        "sameAs": ["https://www.instagram.com/kd_handloom_stores/"],
+        "description": "Wholesale + retail कपड़ा store in Motihari, Bihar. Saree, lungi, gamcha, kurti, innerwear, readymade clothes.",
+        "url": "https://kdhandloom.in/"
+      }
+    </script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="./">
+          <span class="brand-mark" aria-hidden="true">KD</span>
+          <span class="brand-text">
+            <span class="brand-name">KD Handloom Store</span>
+            <span class="brand-sub">Motihari, Bihar</span>
+          </span>
+        </a>
+
+        <nav class="nav" aria-label="Primary">
+          <a href="#categories">Categories</a>
+          <a href="#featured">Featured</a>
+          <a href="#reels">Reels</a>
+          <a href="#contact">Contact</a>
+        </nav>
+
+        <button class="icon-btn" type="button" id="menuBtn" aria-expanded="false" aria-controls="mobileNav">
+          <span class="icon-btn__text">Menu</span>
+          <span class="icon-btn__icon" aria-hidden="true"></span>
+        </button>
+      </div>
+
+      <div class="mobile-nav" id="mobileNav" hidden>
+        <div class="container mobile-nav-inner">
+          <a href="#categories" data-close-menu>Categories</a>
+          <a href="#featured" data-close-menu>Featured</a>
+          <a href="#reels" data-close-menu>Reels</a>
+          <a href="#contact" data-close-menu>Contact</a>
+          <a class="btn btn-primary" href="#featured" data-close-menu>Shop Now</a>
+        </div>
+      </div>
+    </header>
+
+    <main id="main">
+      <!-- 1) Hero -->
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="badge">Clothing Brand / Wholesale & Retail कपड़ा Store</p>
+            <h1 class="hero-title">Best Wholesale & Retail Clothing Store in Motihari</h1>
+            <p class="hero-subtitle">
+              Lungi • Saree • Readymade • Gamcha • Daily Wear Collection
+            </p>
+
+            <div class="hero-cta">
+              <a class="btn btn-primary" href="#featured">Shop Now</a>
+              <a class="btn btn-outline" id="whatsAppHero" href="#contact">WhatsApp Order</a>
+            </div>
+
+            <div class="hero-pills" aria-label="Highlights">
+              <span class="pill">Budget Friendly</span>
+              <span class="pill">Wholesale + Retail</span>
+              <span class="pill">Daily New Collection</span>
+            </div>
+          </div>
+
+          <div class="hero-card" aria-label="Store highlights">
+            <div class="hero-card-top">
+              <p class="hero-card-title">KD Handloom Store Motihari</p>
+              <p class="hero-card-desc">
+                Trusted local store for saree, kurti, gamcha, innerwear, and readymade garments.
+              </p>
+            </div>
+            <div class="hero-card-bottom">
+              <div class="stat">
+                <div class="stat-label">Category</div>
+                <div class="stat-value">Clothing</div>
+              </div>
+              <div class="stat">
+                <div class="stat-label">Orders</div>
+                <div class="stat-value">WhatsApp</div>
+              </div>
+              <div class="stat">
+                <div class="stat-label">Location</div>
+                <div class="stat-value">Motihari</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 2) Product Categories -->
+      <section class="section" id="categories">
+        <div class="container">
+          <div class="section-head">
+            <h2 class="section-title">Product Categories</h2>
+            <p class="section-subtitle">Shop quickly by collection.</p>
+          </div>
+
+          <div class="grid cards" id="categoryGrid" aria-label="Categories">
+            <!-- populated by JS for easy updates -->
+          </div>
+        </div>
+      </section>
+
+      <!-- 3) Featured Products -->
+      <section class="section section-alt" id="featured">
+        <div class="container">
+          <div class="section-head">
+            <h2 class="section-title">Featured Products</h2>
+            <p class="section-subtitle">Trending • Offers • Best Sellers</p>
+          </div>
+
+          <div class="toolbar" aria-label="Featured filters">
+            <button class="chip is-active" type="button" data-filter="trending">Trending</button>
+            <button class="chip" type="button" data-filter="offers">Offer Items</button>
+            <button class="chip" type="button" data-filter="best">Best Sellers</button>
+            <button class="chip" type="button" data-filter="reels">Store Reels</button>
+          </div>
+
+          <div class="grid products" id="productGrid" aria-live="polite">
+            <!-- populated by JS -->
+          </div>
+        </div>
+      </section>
+
+      <!-- 4) Why Choose Us -->
+      <section class="section" id="why">
+        <div class="container">
+          <div class="section-head">
+            <h2 class="section-title">Why Choose Us</h2>
+            <p class="section-subtitle">Local, trusted, and value-first.</p>
+          </div>
+
+          <div class="grid why-grid">
+            <div class="why">
+              <div class="why-icon" aria-hidden="true">₹</div>
+              <div class="why-title">Best Price in Motihari</div>
+              <div class="why-desc">Budget friendly options for daily wear and special collections.</div>
+            </div>
+            <div class="why">
+              <div class="why-icon" aria-hidden="true">W</div>
+              <div class="why-title">Wholesale & Retail Both</div>
+              <div class="why-desc">For shop owners and families—buy in bulk or single pieces.</div>
+            </div>
+            <div class="why">
+              <div class="why-icon" aria-hidden="true">✓</div>
+              <div class="why-title">Trusted Local Store</div>
+              <div class="why-desc">Serving Motihari with consistent quality and fair deals.</div>
+            </div>
+            <div class="why">
+              <div class="why-icon" aria-hidden="true">+</div>
+              <div class="why-title">Daily New Collection</div>
+              <div class="why-desc">Fresh arrivals in saree, kurti, readymade, and essentials.</div>
+            </div>
+            <div class="why">
+              <div class="why-icon" aria-hidden="true">WA</div>
+              <div class="why-title">Easy WhatsApp Ordering</div>
+              <div class="why-desc">Send product name + quantity and we’ll confirm quickly.</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 5) Video/Reel Section -->
+      <section class="section section-alt" id="reels">
+        <div class="container">
+          <div class="section-head">
+            <h2 class="section-title">Store Reels & Videos</h2>
+            <p class="section-subtitle">
+              Add your Instagram reel links here—customers love quick previews.
+            </p>
+          </div>
+
+          <div class="grid reels" id="reelGrid">
+            <a class="reel" href="https://www.instagram.com/kd_handloom_stores/" target="_blank" rel="noreferrer">
+              <div class="reel-thumb" aria-hidden="true"></div>
+              <div class="reel-meta">
+                <div class="reel-title">Store Reels</div>
+                <div class="reel-desc">Tap to open Instagram</div>
+              </div>
+            </a>
+            <a class="reel" href="https://www.instagram.com/kd_handloom_stores/" target="_blank" rel="noreferrer">
+              <div class="reel-thumb" aria-hidden="true"></div>
+              <div class="reel-meta">
+                <div class="reel-title">Product Showcase</div>
+                <div class="reel-desc">New arrivals + offers</div>
+              </div>
+            </a>
+            <a class="reel" href="https://www.instagram.com/kd_handloom_stores/" target="_blank" rel="noreferrer">
+              <div class="reel-thumb" aria-hidden="true"></div>
+              <div class="reel-meta">
+                <div class="reel-title">Customer Clips</div>
+                <div class="reel-desc">Real store interactions</div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- 6) Contact -->
+      <section class="section" id="contact">
+        <div class="container contact-grid">
+          <div>
+            <div class="section-head">
+              <h2 class="section-title">Contact & Orders</h2>
+              <p class="section-subtitle">
+                Direct inquiry form + quick WhatsApp ordering.
+              </p>
+            </div>
+
+            <div class="contact-cards">
+              <div class="contact-card">
+                <div class="contact-card-title">WhatsApp</div>
+                <p class="contact-card-desc">Fast order confirmation and bulk inquiries.</p>
+                <a class="btn btn-primary" id="whatsAppContact" href="#">Open WhatsApp</a>
+              </div>
+
+              <div class="contact-card">
+                <div class="contact-card-title">Instagram</div>
+                <p class="contact-card-desc">Follow for reels, offers, and new arrivals.</p>
+                <a class="btn btn-outline" href="https://www.instagram.com/kd_handloom_stores/" target="_blank" rel="noreferrer">
+                  @kd_handloom_stores
+                </a>
+              </div>
+
+              <div class="contact-card">
+                <div class="contact-card-title">Store Location</div>
+                <p class="contact-card-desc">Motihari, Bihar</p>
+                <a
+                  class="btn btn-outline"
+                  href="https://www.google.com/maps/search/?api=1&query=KD%20Handloom%20Store%20Motihari"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Open in Google Maps
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <form class="form" id="inquiryForm" aria-label="Direct inquiry form">
+            <div class="form-head">
+              <div class="form-title">Direct Inquiry</div>
+              <p class="form-subtitle">We’ll prepare your order details for WhatsApp.</p>
+            </div>
+
+            <label class="field">
+              <span class="field-label">Name</span>
+              <input class="input" name="name" autocomplete="name" required />
+            </label>
+
+            <label class="field">
+              <span class="field-label">Phone (WhatsApp)</span>
+              <input class="input" name="phone" inputmode="tel" autocomplete="tel" required />
+            </label>
+
+            <label class="field">
+              <span class="field-label">What do you need?</span>
+              <select class="input" name="category" required>
+                <option value="" selected disabled>Select a category</option>
+                <option>Saree</option>
+                <option>Kurti</option>
+                <option>Men’s Wear</option>
+                <option>Innerwear</option>
+                <option>Gamcha</option>
+                <option>Lungi</option>
+                <option>Readymade Clothes</option>
+                <option>Wholesale Clothing</option>
+              </select>
+            </label>
+
+            <label class="field">
+              <span class="field-label">Message</span>
+              <textarea class="input" name="message" rows="4" placeholder="Example: 10 pcs half pants (size mix), 5 saree, budget range…"></textarea>
+            </label>
+
+            <button class="btn btn-primary" type="submit">Send on WhatsApp</button>
+
+            <p class="form-note">
+              SEO keywords: Best clothing store in Motihari • Saree shop Motihari • Wholesale कपड़ा store Bihar • Readymade garments Motihari • Gamcha and lungi shop Motihari
+            </p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-inner">
+        <div>
+          <div class="footer-brand">KD Handloom Store Motihari</div>
+          <div class="footer-sub">
+            Wholesale + Retail कपड़ा Store • Motihari, Bihar
+          </div>
+        </div>
+
+        <div class="footer-links">
+          <a href="#categories">Categories</a>
+          <a href="#featured">Featured</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+    </footer>
+
+    <button class="fab" id="fabWhatsApp" type="button" aria-label="WhatsApp order">
+      WhatsApp
+    </button>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
+
